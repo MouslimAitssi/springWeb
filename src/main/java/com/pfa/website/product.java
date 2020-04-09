@@ -3,6 +3,7 @@ package com.pfa.website;
 import org.springframework.web.bind.annotation.GetMapping;
 
 public class product {
+    
     private int id;
     private String nom;
     private int prix;
