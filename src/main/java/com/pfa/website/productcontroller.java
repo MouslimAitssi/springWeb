@@ -1,6 +1,7 @@
 package com.pfa.website;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,9 +10,11 @@ import java.util.List;
 @RestController
 public class productcontroller {
 
-    productdao dao;
 
-    @GetMapping(value="/porduits")
+    @Autowired
+    private productdao dao;
+
+    @GetMapping(value="produits")
     public List<product> listeProduits() {
         return dao.findAll();
 
@@ -19,8 +22,10 @@ public class productcontroller {
 
     @GetMapping(value="produits/{id}")
     public product afficherProduit(@PathVariable int id) {
-        product produit = new product(id, "PC Gamer", 20000);
-        return produit;
+        product game = new product(id, "GTA V", 500);
+
+
+        return game;
     }
 
 }
