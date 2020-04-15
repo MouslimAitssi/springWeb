@@ -22,7 +22,7 @@ public class productcontroller {
 
     @GetMapping(value="produits/{id}")
     public product afficherProduit(@PathVariable int id) {
-        product game = new product(id, "GTA V", 500);
+        product game = dao.findbyId(id);
 
 
         return game;

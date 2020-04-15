@@ -17,6 +17,7 @@ public class productdaoimpl implements  productdao{
         products.add(new product(3, "Axiom Verge 2", 5000));
         products.add(new product(4, "Resident Evil 3", 1000));
         products.add(new product(5, "Sports Story", 1500));
+        products.add(new product(6, "GTA VI", 2000));
     }
 
     @Override
@@ -25,12 +26,21 @@ public class productdaoimpl implements  productdao{
     }
 
     @Override
-    public product findbyid(int id) {
+    public product findbyId(int id) {
+        for (product game : products) {
+            if(game.getId() ==id){
+                return game;
+            }
+        }
         return null;
+
+
     }
 
     @Override
-    public product save() {
-        return null;
+    public product save(product game) {
+
+        products.add(game);
+        return game;
     }
 }
