@@ -21,13 +21,11 @@ public class productcontroller {
 
     @GetMapping(value="produits/{id}")
     public product afficherProduit(@PathVariable int id) {
-        product game = dao.findbyId(id);
-        return game;
+        return dao.findbyId(id);
     }
 
     @PostMapping(value="produits")
     public void ajouterProduit(@RequestBody product game) {
         dao.save(game);
     }
-
 }
