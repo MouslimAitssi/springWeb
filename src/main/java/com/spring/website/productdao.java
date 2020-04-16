@@ -1,4 +1,4 @@
-package com.pfa.website;
+package com.spring.website;
 
 import java.util.List;
 

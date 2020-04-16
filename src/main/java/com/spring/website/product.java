@@ -1,4 +1,4 @@
-package com.pfa.website;
+package com.spring.website;
 
 import org.springframework.web.bind.annotation.GetMapping;
 

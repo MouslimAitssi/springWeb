@@ -1,4 +1,4 @@
-package com.pfa.website;
+package com.spring.website;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,6 @@ public class productcontroller {
     @GetMapping(value="produits/{id}")
     public product afficherProduit(@PathVariable int id) {
         product game = dao.findbyId(id);
-
         return game;
     }
 
