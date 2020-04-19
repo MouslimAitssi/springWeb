@@ -2,6 +2,7 @@ package com.spring.website;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -10,21 +11,22 @@ import javax.persistence.Id;
 public class product {
     @Id
     @GeneratedValue
+    @Column(name = "ID", unique = true)
     private int id;
+    @Column(name = "nom", nullable = false)
     private String nom;
+    @Column(name = "prix", nullable = false)
     private int prix;
-
-    //a ne pas afficher
-    @JsonIgnore
-    private int prixAchat;
+    @Column(name = "prixachat", nullable = false)
+    private int prixachat;
 
     public product() {}
 
-    public product(int id, String nom, int prix, int prixAchat) {
+    public product(int id, String nom, int prix, int prixachat) {
         this.id = id;
         this.nom = nom;
         this.prix = prix;
-        this.prixAchat = prixAchat;
+        this.prixachat = prixachat;
     }
 
     @Override
@@ -33,7 +35,7 @@ public class product {
                 "id=" + id +
                 ", nom='" + nom + '\'' +
                 ", prix=" + prix +
-                ", prixAchat=" + prixAchat +
+                ", prixachat=" + prixachat +
                 '}';
     }
 
@@ -61,11 +63,11 @@ public class product {
         this.prix = prix;
     }
 
-    public int getPrixAchat() {
-        return prixAchat;
+    public int getprixachat() {
+        return prixachat;
     }
 
-    public void setPrixAchat(int prixAchat) {
-        this.prixAchat = prixAchat;
+    public void setprixachat(int prixachat) {
+        this.prixachat = prixachat;
     }
 }
