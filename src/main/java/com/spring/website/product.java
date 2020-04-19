@@ -1,5 +1,6 @@
 package com.spring.website;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.web.bind.annotation.GetMapping;
 
 public class product {
@@ -8,13 +9,27 @@ public class product {
     private String nom;
     private int prix;
 
+    //a ne pas afficher
+    @JsonIgnore
+    private int prixAchat;
 
     public product() {}
 
-    public product(int id, String nom, int prix) {
+    public product(int id, String nom, int prix, int prixAchat) {
         this.id = id;
         this.nom = nom;
         this.prix = prix;
+        this.prixAchat = prixAchat;
+    }
+
+    @Override
+    public String toString() {
+        return "product{" +
+                "id=" + id +
+                ", nom='" + nom + '\'' +
+                ", prix=" + prix +
+                ", prixAchat=" + prixAchat +
+                '}';
     }
 
     public int getId() {
@@ -41,12 +56,11 @@ public class product {
         this.prix = prix;
     }
 
-    @Override
-    public String toString() {
-        return "product{" +
-                "id=" + id +
-                ", nom='" + nom + '\'' +
-                ", prix=" + prix +
-                '}';
+    public int getPrixAchat() {
+        return prixAchat;
+    }
+
+    public void setPrixAchat(int prixAchat) {
+        this.prixAchat = prixAchat;
     }
 }
