@@ -1,10 +1,12 @@
 package com.spring.website;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
 import java.util.List;
 
-public interface productdao {
+@Repository
+public interface productdao extends JpaRepository<product, Integer> {
 
-    public List<product> findAll();
-    public product findbyId(int id);
-    public product save(product game);
+    product findById(int id);
 }

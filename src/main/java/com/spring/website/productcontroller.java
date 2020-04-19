@@ -24,7 +24,7 @@ public class productcontroller {
 
     @GetMapping(value="produits/{id}")
     public product afficherProduit(@PathVariable int id) {
-        return dao.findbyId(id);
+        return dao.findById(id);
     }
 
     @PostMapping(value="produits")

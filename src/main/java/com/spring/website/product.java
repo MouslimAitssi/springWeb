@@ -1,10 +1,15 @@
 package com.spring.website;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import org.springframework.web.bind.annotation.GetMapping;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
 public class product {
-    
+    @Id
+    @GeneratedValue
     private int id;
     private String nom;
     private int prix;
