@@ -1,4 +1,3 @@
-
 INSERT into PRODUCT VALUES (1, 'Cyberpunk 2077', 2000, 1500);
 INSERT into PRODUCT VALUES (2, 'Ghost of Tsushima', 1000, 800);
 INSERT into PRODUCT VALUES (3, 'Axiom Verge 2', 5000, 4000);

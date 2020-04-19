@@ -27,6 +27,15 @@ public class productcontroller {
         return dao.findById(id);
     }
 
+    @GetMapping(value="produits/gt/{prix}")
+    public List<product> plusCherQue(@PathVariable int prix) {return dao.findByPrixGreaterThan(prix);}
+
+    @GetMapping(value="produits/lt/{prix}")
+    public List<product> moinsCherQue(@PathVariable int prix) {return dao.findByPrixLessThan(prix);}
+
+    /*@GetMapping(value="produits/max")
+    public product plusChere() {return dao.findMaxPrice();}*/
+
     @PostMapping(value="produits")
     public ResponseEntity<Void> ajouterProduit(@RequestBody product game) {
 
