@@ -1,4 +1,4 @@
-package com.spring.website;
+package com.spring.website.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -8,7 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class product {
+public class Product {
     @Id
     @GeneratedValue
     @Column(name = "id", unique = true, nullable = false)
@@ -20,9 +20,9 @@ public class product {
     @Column(name = "prixachat", nullable = false)
     private int prixachat;
 
-    public product() {}
+    public Product() {}
 
-    public product(int id, String nom, int prix, int prixachat) {
+    public Product(int id, String nom, int prix, int prixachat) {
         this.id = id;
         this.nom = nom;
         this.prix = prix;
@@ -31,7 +31,7 @@ public class product {
 
     @Override
     public String toString() {
-        return "product{" +
+        return "Product{" +
                 "id=" + id +
                 ", nom='" + nom + '\'' +
                 ", prix=" + prix +
