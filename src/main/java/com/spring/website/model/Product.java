@@ -1,10 +1,9 @@
 package com.spring.website.model;
-
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
+
 import javax.persistence.Id;
 
 @Entity
@@ -17,7 +16,7 @@ public class Product {
     private String nom;
     @Column(name = "prix", nullable = false)
     private int prix;
-    //@JsonIgnore
+    @JsonIgnore
     @Column(name = "prixachat", nullable = false)
     private int prixachat;
 
