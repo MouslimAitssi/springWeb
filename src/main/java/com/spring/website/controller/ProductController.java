@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-
 import java.net.URI;
 import java.util.List;
 
@@ -22,16 +21,14 @@ public class ProductController {
     @GetMapping(value="produits")
     public List<Product> listeProduits() {
         return dao.findAll();
-
     }
 
     @GetMapping(value="produits/{id}")
     public Product afficherProduit(@PathVariable int id) throws ProduitIntrouvableException {
-
-
         Product game = dao.findById(id);
-        if(game == null) throw new ProduitIntrouvableException("Le produit avec l'id "+ id + "n'existe pas.");
-
+        if(game == null) {
+            throw new ProduitIntrouvableException("Le produit avec l'id "+ id + "n'existe pas.");
+        }
         return game;
     }
 
@@ -46,8 +43,9 @@ public class ProductController {
 
     @PostMapping(value="produits")
     public ResponseEntity<Void> ajouterProduit(@RequestBody Product game) {
-
-        Product result = dao.save(game);
+        
+        Product result = dao.save((Product)game);
+        System.out.println(game);
         if(result == null) {
             return ResponseEntity.noContent().build();
         }

@@ -10,13 +10,14 @@ import javax.persistence.Id;
 @Entity
 public class Product {
     @Id
-    @GeneratedValue
+    //@GeneratedValue
     @Column(name = "id", unique = true, nullable = false)
     private int id;
     @Column(name = "nom", nullable = false)
     private String nom;
     @Column(name = "prix", nullable = false)
     private int prix;
+    //@JsonIgnore
     @Column(name = "prixachat", nullable = false)
     private int prixachat;
 
