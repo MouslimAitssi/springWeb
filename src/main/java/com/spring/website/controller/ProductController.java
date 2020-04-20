@@ -26,9 +26,10 @@ public class ProductController {
     @GetMapping(value="produits/{id}")
     public Product afficherProduit(@PathVariable int id) throws ProduitIntrouvableException {
         Product game = dao.findById(id);
-        if(game == null) {
-            throw new ProduitIntrouvableException("Le produit avec l'id "+ id + "n'existe pas.");
+        if(game==null) {
+            throw new ProduitIntrouvableException("Le produit avec l'id "+ id + " est introuvable");
         }
+
         return game;
     }
 
@@ -43,8 +44,8 @@ public class ProductController {
 
     @PostMapping(value="produits")
     public ResponseEntity<Void> ajouterProduit(@RequestBody Product game) {
-        
-        Product result = dao.save((Product)game);
+
+        Product result = dao.save(game);
         System.out.println(game);
         if(result == null) {
             return ResponseEntity.noContent().build();
