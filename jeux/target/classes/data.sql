@@ -1,0 +1,6 @@
+INSERT into PRODUCT VALUES (1, 'Cyberpunk 2077', 2000, 1500);
+INSERT into PRODUCT VALUES (2, 'Ghost of Tsushima', 1000, 800);
+INSERT into PRODUCT VALUES (3, 'Axiom Verge 2', 5000, 4000);
+INSERT into PRODUCT VALUES (4, 'Resident Evil 3', 1000, 700);
+INSERT into PRODUCT VALUES (5, 'Sports Story', 1500, 1300);
+INSERT into PRODUCT VALUES (6, 'GTA VI', 2000, 1500);
