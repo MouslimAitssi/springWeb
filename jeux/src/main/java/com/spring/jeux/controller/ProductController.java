@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 import java.util.List;
+import java.util.Optional;
 
 
 @Api(description = "Gestion des jeux qu'on a")
@@ -30,7 +31,7 @@ public class ProductController {
 
     @ApiOperation(value = "Récupère un jeu à travers son ID")
     @GetMapping(value="produits/{id}")
-    public Product afficherProduit(@PathVariable int id) throws ProduitIntrouvableException {
+    public Product afficherProduit(@PathVariable int id) throws ProduitIntrouvableException{
         Product game = dao.findById(id);
         if(game==null) {
             throw new ProduitIntrouvableException("Le produit avec l'id "+ id + " est introuvable");

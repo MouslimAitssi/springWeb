@@ -58,5 +58,5 @@ public class JeuBean {
                 ", image='" + image + '\'' +
                 '}';
     }
-    
+
 }
