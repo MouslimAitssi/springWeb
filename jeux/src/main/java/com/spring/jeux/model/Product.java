@@ -3,12 +3,13 @@ package com.spring.jeux.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
 public class Product {
     @Id
-    //@GeneratedValue
+    @GeneratedValue
     @Column(name = "id", unique = true, nullable = false)
     private int id;
     @Column(name = "nom", nullable = false)
