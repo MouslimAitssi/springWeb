@@ -15,8 +15,6 @@ test db:
 jdbc:h2:mem:testdb
  */
     Product findById(int id);
-    List<Product> findByPrixGreaterThan(int prixLimit);
-    List<Product> findByPrixLessThan(int prixLimit);
 
     /*@Query("select id, nom, prix from Product p where p.prix = max(p.prix)")
     Product findMaxPrice();*/

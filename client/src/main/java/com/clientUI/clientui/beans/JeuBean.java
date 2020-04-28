@@ -1,41 +1,20 @@
-package com.spring.jeux.model;
+package com.clientUI.clientui.beans;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
+public class JeuBean {
 
-import javax.persistence.Id;
-
-@Entity
-public class Product {
-    @Id
-    //@GeneratedValue
-    @Column(name = "id", unique = true, nullable = false)
     private int id;
-    @Column(name = "nom", nullable = false)
     private String nom;
-    @Column(name = "description", nullable = false)
     private String description;
-    @Column(name = "image", nullable = false)
     private String image;
 
+    public JeuBean() {
+    }
 
-    public Product() {}
-
-    public Product(int id, String nom, String description, String image) {
+    public JeuBean(int id, String nom, String description, String image) {
         this.id = id;
         this.nom = nom;
         this.description = description;
         this.image = image;
-    }
-
-    @Override
-    public String toString() {
-        return "Product{" +
-                "id=" + id +
-                ", nom='" + nom + '\'' +
-                ", description='" + description + '\'' +
-                ", image='" + image + '\'' +
-                '}';
     }
 
     public int getId() {
@@ -69,4 +48,15 @@ public class Product {
     public void setImage(String image) {
         this.image = image;
     }
+
+    @Override
+    public String toString() {
+        return "JeuBean{" +
+                "id=" + id +
+                ", nom='" + nom + '\'' +
+                ", description='" + description + '\'' +
+                ", image='" + image + '\'' +
+                '}';
+    }
+    
 }

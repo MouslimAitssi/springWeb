@@ -39,13 +39,13 @@ public class ProductController {
         return game;
     }
 
-    @ApiOperation(value = "Affiche tous les jeux dont le prix est plus cher que le prix donné dans le path")
+    /*@ApiOperation(value = "Affiche tous les jeux dont le prix est plus cher que le prix donné dans le path")
     @GetMapping(value="produits/gt/{prix}")
     public List<Product> plusCherQue(@PathVariable int prix) {return dao.findByPrixGreaterThan(prix);}
 
     @ApiOperation(value = "Affiche tous les jeux dont le prix est moins cher que le prix donné dans le path")
     @GetMapping(value="produits/lt/{prix}")
-    public List<Product> moinsCherQue(@PathVariable int prix) {return dao.findByPrixLessThan(prix);}
+    public List<Product> moinsCherQue(@PathVariable int prix) {return dao.findByPrixLessThan(prix);}*/
 
     /*@GetMapping(value="produits/max")
     public Product plusChere() {return dao.findMaxPrice();}*/
