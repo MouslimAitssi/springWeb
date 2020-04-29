@@ -2,27 +2,24 @@ package com.spring.jeux.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Product {
+public class Jeu {
     @Id
-    @GeneratedValue
-    @Column(name = "id", unique = true, nullable = false)
+    //@GeneratedValue
+
     private int id;
-    @Column(name = "nom", nullable = false)
+
     private String nom;
-    @Column(name = "description", nullable = false)
+
     private String description;
-    @Column(name = "image", nullable = false)
+
     private String image;
 
+    public Jeu() {}
 
-    public Product() {}
-
-    public Product(int id, String nom, String description, String image) {
+    public Jeu(int id, String nom, String description, String image) {
         this.id = id;
         this.nom = nom;
         this.description = description;
@@ -31,7 +28,7 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" +
+        return "Jeu{" +
                 "id=" + id +
                 ", nom='" + nom + '\'' +
                 ", description='" + description + '\'' +

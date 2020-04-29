@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "jeux", url="localhost:8080")
+@FeignClient(name = "jeux", url="localhost:9000")
 public interface JeuxProxy {
     @GetMapping(value="produits")
     List<JeuBean> listeProduits();
 
     @GetMapping(value="produits/{id}")
-    JeuBean afficherProduit(@PathVariable int id);
+    JeuBean afficherProduit(@PathVariable("id") int id);
 
 }
 
