@@ -1,9 +1,9 @@
 package com.spring.jeux.controller;
 
 
-import com.spring.jeux.exceptions.ProduitIntrouvableException;
+import com.spring.jeux.exceptions.JeuIntrouvableException;
 import com.spring.jeux.model.Jeu;
-import com.spring.jeux.dao.ProductDao;
+import com.spring.jeux.dao.JeuDao;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,24 +16,30 @@ import java.util.List;
 
 @Api(description = "Gestion des jeux qu'on a")
 @RestController
-public class ProductController {
+public class JeuController {
 
 
     @Autowired
-    private ProductDao dao;
+    private JeuDao dao;
 
     @ApiOperation(value = "Affiche tous les jeux qu'on possède")
     @GetMapping(value="produits")
-    public List<Jeu> listeProduits() {
-        return dao.findAll();
+    public List<Jeu> listeProduits() throws JeuIntrouvableException {
+
+        List<Jeu> jeux = dao.findAll();
+
+        if(jeux.isEmpty()) {
+            throw new JeuIntrouvableException("Ouups, aucun jeu n'est disponible.");
+        }
+        return jeux;
     }
 
     @ApiOperation(value = "Récupère un jeu à travers son ID")
     @GetMapping(value="produits/{id}")
-    public Jeu afficherProduit(@PathVariable int id) throws ProduitIntrouvableException{
+    public Jeu afficherProduit(@PathVariable int id) throws JeuIntrouvableException {
         Jeu game = dao.findById(id);
         if(game==null) {
-            throw new ProduitIntrouvableException("Le produit avec l'id "+ id + " est introuvable");
+            throw new JeuIntrouvableException("Le produit avec l'id "+ id + " est introuvable");
         }
 
         return game;

@@ -5,7 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ProductDao extends JpaRepository<Jeu, Integer> {
+public interface JeuDao extends JpaRepository<Jeu, Integer> {
 
 /* Documentation:
 https://docs.spring.io/spring-data/data-jpa/docs/1.1.x/reference/html/#jpa.query-methods.query-creation
