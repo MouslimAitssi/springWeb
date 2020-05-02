@@ -2,6 +2,9 @@ package com.clientUI.clientui.exceptions;
 
 import feign.Response;
 import feign.codec.ErrorDecoder;
+import org.springframework.context.annotation.Bean;
+
+
 
 public class StatusDecoder implements ErrorDecoder {
 
