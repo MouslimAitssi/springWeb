@@ -62,7 +62,7 @@ public class JeuController {
     public ResponseEntity<Void> ajouterProduit(@RequestBody Jeu game) {
 
         Jeu result = dao.save(game);
-        System.out.println(game);
+
         if(result == null) {
             return ResponseEntity.noContent().build();
         }

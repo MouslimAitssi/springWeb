@@ -2,6 +2,7 @@ package com.spring.jeux.dao;
 
 import com.spring.jeux.model.Jeu;
 import org.springframework.data.jpa.repository.JpaRepository;
+
 import org.springframework.stereotype.Repository;
 
 @Repository
