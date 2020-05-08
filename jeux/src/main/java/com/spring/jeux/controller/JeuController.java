@@ -8,7 +8,6 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
@@ -25,37 +24,33 @@ public class JeuController {
 
     @ApiOperation(value = "Affiche tous les jeux qu'on possède")
     @GetMapping(value="produits")
-    public List<Jeu> listeProduits() throws JeuIntrouvableException {
+    public List<Jeu> listeProduits() {
 
         List<Jeu> jeux = dao.findAll();
 
         if(jeux.isEmpty()) {
-            throw new JeuIntrouvableException("Ouups, aucun jeu n'est disponible.");
+            try {
+                throw new JeuIntrouvableException("Ouups, aucun jeu n'est disponible.");
+            } catch (JeuIntrouvableException e) {
+                e.printStackTrace();
+            }
         }
         return jeux;
     }
 
     @ApiOperation(value = "Récupère un jeu à travers son ID")
     @GetMapping(value="produits/{id}")
-    public Jeu afficherProduit(@PathVariable int id) throws JeuIntrouvableException {
+    public Jeu afficherProduit(@PathVariable int id){
         Jeu game = dao.findById(id);
         if(game==null) {
-            throw new JeuIntrouvableException("Le produit avec l'id "+ id + " est introuvable");
+            try {
+                throw new JeuIntrouvableException("Le produit avec l'id "+ id + " est introuvable");
+            } catch (JeuIntrouvableException e) {
+                e.printStackTrace();
+            }
         }
-
         return game;
     }
-
-    /*@ApiOperation(value = "Affiche tous les jeux dont le prix est plus cher que le prix donné dans le path")
-    @GetMapping(value="produits/gt/{prix}")
-    public List<Jeu> plusCherQue(@PathVariable int prix) {return dao.findByPrixGreaterThan(prix);}
-
-    @ApiOperation(value = "Affiche tous les jeux dont le prix est moins cher que le prix donné dans le path")
-    @GetMapping(value="produits/lt/{prix}")
-    public List<Jeu> moinsCherQue(@PathVariable int prix) {return dao.findByPrixLessThan(prix);}*/
-
-    /*@GetMapping(value="produits/max")
-    public Jeu plusChere() {return dao.findMaxPrice();}*/
 
     @ApiOperation(value = "Ajoute le jeu reçu dans le body de la requête")
     @PostMapping(value="produits")

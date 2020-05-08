@@ -16,5 +16,3 @@ public interface JeuxProxy {
     JeuBean afficherProduit(@PathVariable("id") int id);
 
 }
-
-
