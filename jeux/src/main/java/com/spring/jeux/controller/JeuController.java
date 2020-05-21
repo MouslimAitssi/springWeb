@@ -40,14 +40,12 @@ public class JeuController {
 
     @ApiOperation(value = "Récupère un jeu à travers son ID")
     @GetMapping(value="produits/{id}")
-    public Jeu afficherProduit(@PathVariable int id){
+    public Jeu afficherProduit(@PathVariable int id) throws JeuIntrouvableException{
         Jeu game = dao.findById(id);
         if(game==null) {
-            try {
+
                 throw new JeuIntrouvableException("Le produit avec l'id "+ id + " est introuvable");
-            } catch (JeuIntrouvableException e) {
-                e.printStackTrace();
-            }
+
         }
         return game;
     }
