@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
         <module name="website" />
+        <module name="registration-login" />
         <module name="jeux" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client" target="1.8" />
       <module name="jeux" target="1.8" />
+      <module name="registration-login" target="1.8" />
       <module name="website" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client" options="-parameters" />
       <module name="jeux" options="-parameters" />
+      <module name="registration-login" options="-parameters" />
       <module name="website" options="-parameters" />
     </option>
   </component>
