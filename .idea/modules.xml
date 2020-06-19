@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/projet spring.iml" filepath="$PROJECT_DIR$/.idea/projet spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/clientui.iml" filepath="$PROJECT_DIR$/client/clientui.iml" />
       <module fileurl="file://$PROJECT_DIR$/registration-login/registration-login.iml" filepath="$PROJECT_DIR$/registration-login/registration-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/jeux/website.iml" filepath="$PROJECT_DIR$/jeux/website.iml" />
     </modules>

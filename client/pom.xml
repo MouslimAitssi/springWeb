@@ -4,7 +4,6 @@
 	<groupId>com.clientui</groupId>
 	<artifactId>clientui</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
 	<name>client-ui</name>
 	<description>Client UI de l'application</description>
 	<parent>
@@ -101,11 +100,11 @@
 
 
 		<!-- https://mvnrepository.com/artifact/com.sun.faces/jsf-impl -->
-		<dependency>
+		<!--<dependency>
 			<groupId>com.sun.faces</groupId>
 			<artifactId>jsf-impl</artifactId>
 			<version>2.2.20</version>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
@@ -138,6 +137,12 @@
 		</plugins>
 	</build>
 	<repositories>
+
+		<repository>
+			<id>primefaces-repository</id>
+			<name>Primefaces repository</name>
+			<url>http://repository.primefaces.org</url>
+		</repository>
 		<repository>
 			<id>spring-milestones</id>
 			<name>Spring Milestones</name>
