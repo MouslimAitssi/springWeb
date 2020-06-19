@@ -25,7 +25,7 @@ public class ClientController {
 
         model.addAttribute("produits", produits);
 
-        return "index";
+        return "Accueil.xhtml";
     }
 
 }

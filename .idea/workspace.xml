@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/client/pom.xml" line="107" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="dfc052f8-80df-4d8d-b66d-695ba14ec918" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_atinject_1_0_spec_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_myfaces_core_myfaces_api_2_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_myfaces_core_myfaces_impl_2_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_12_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ocpsoft_rewrite_rewrite_config_prettyfaces_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ocpsoft_rewrite_rewrite_integration_faces_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ocpsoft_rewrite_rewrite_servlet_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_primefaces_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_primefaces_themes_all_themes_1_0_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/resources/templates/Accueil.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-login/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/registration-login/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/templates/Accueil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/com/clientUI/clientui/controller/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/classes/com/clientUI/clientui/controller/ClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/classes/templates/Accueil.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/jeux/target/" />
     <ignored path="$PROJECT_DIR$/client/target/" />
@@ -20,29 +44,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="111" column="34" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/registration-login/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/client/src/main/resources/templates/Accueil.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+            <state relative-caret-position="294">
+              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#p:button#0;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p:button#1;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p:button#2;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p:button#3;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jeux/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/beans/JeuBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jeux/src/main/resources/liquibase.properties">
+        <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/controller/ClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+            <state relative-caret-position="252">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -55,6 +94,7 @@
         <option value="HTML File" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="XHTML File" />
       </list>
     </option>
   </component>
@@ -62,6 +102,7 @@
     <findStrings>
       <find>home</find>
       <find>net.javaguides.springboot.springsecurity</find>
+      <find>thymeleaf</find>
     </findStrings>
     <replaceStrings>
       <replace>com.auth.registrationlogin</replace>
@@ -76,11 +117,9 @@
         <option value="$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/User.java" />
         <option value="$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/UserRepository.java" />
         <option value="$PROJECT_DIR$/client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/client/pom.xml" />
         <option value="$PROJECT_DIR$/jeux/pom.xml" />
         <option value="$PROJECT_DIR$/jeux/src/main/resources/db/changelog/db.changelog-master.xml" />
         <option value="$PROJECT_DIR$/jeux/src/main/resources/db/changelog/changelog-v1.0.xml" />
-        <option value="$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/controller/ClientController.java" />
         <option value="$PROJECT_DIR$/jeux/src/main/java/com/spring/jeux/controller/JeuController.java" />
         <option value="$PROJECT_DIR$/registration-login/src/main/java/com/auth/registrationlogin/constraint/FieldMatchValidator.java" />
         <option value="$PROJECT_DIR$/registration-login/src/main/java/com/auth/registrationlogin/model/Role.java" />
@@ -97,6 +136,12 @@
         <option value="$PROJECT_DIR$/jeux/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/jeux/src/main/resources/liquibase.properties" />
         <option value="$PROJECT_DIR$/registration-login/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/templates/Accueil.html" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/templates/index2.xhtml" />
+        <option value="$PROJECT_DIR$/client/src/main/resources/templates/Accueil.xhtml" />
+        <option value="$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/controller/ClientController.java" />
+        <option value="$PROJECT_DIR$/client/pom.xml" />
       </list>
     </option>
   </component>
@@ -114,7 +159,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="729" />
@@ -126,39 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="registration-login" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="website" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="website" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="website" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="website" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +183,99 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="clientUI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="clientUI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="clientui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="clientUI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="clientui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="beans" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="clientUI" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="clientui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="springWeb" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="client" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -179,14 +284,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="DefaultHtmlFileTemplate" value="XHTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RegistrationLoginApplication">
+  <component name="RunManager" selected="Application.ClientuiApplication">
     <configuration name="ClientuiApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.clientUI.clientui.ClientuiApplication" />
       <module name="client" />
@@ -256,8 +361,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.1311054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49932706" visible="true" weight="0.15102828" />
       <window_info id="Structure" order="1" sideWeight="0.50067294" side_tool="true" weight="0.19601542" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -266,7 +372,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.28263795" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36877525" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12247644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,7 +386,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.15231362" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.15488432" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -364,41 +470,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/UserRepository.java" />
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/User.java" />
-    <entry file="file://$PROJECT_DIR$/client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeux/src/main/resources/db/changelog/db.changelog-master.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeux/src/main/resources/db/changelog/changelog-v1.0.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeux/src/main/java/com/spring/jeux/dao/JeuDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeux/src/main/java/com/spring/jeux/model/Jeu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/configurations/FeignExceptionConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -427,52 +498,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/beans/JeuBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-691">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/resources/templates/Accueil.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/controller/ClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeux/src/main/java/com/spring/jeux/controller/JeuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registration-login/mvnw">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/registration-login/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/ClientuiApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
@@ -495,13 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jeux/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1869">
-          <caret line="89" column="88" selection-start-line="89" selection-start-column="88" selection-end-line="89" selection-end-column="88" />
         </state>
       </provider>
     </entry>
@@ -587,24 +610,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/registration-login/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeux/src/main/java/com/spring/jeux/dao/JeuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeux/src/main/java/com/spring/jeux/controller/JeuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding>
+            <element signature="imports" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeux/src/main/resources/db/changelog/changelog-v1.0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeux/src/main/resources/db/changelog/db.changelog-master.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jeux/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state relative-caret-position="42">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jeux/src/main/resources/liquibase.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        <state relative-caret-position="126">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registration-login/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/jeux/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        <state relative-caret-position="1869">
+          <caret line="89" column="88" selection-start-line="89" selection-start-column="88" selection-end-line="89" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jeux/src/main/java/com/spring/jeux/model/Jeu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration-login/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-784" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/templates/index2.xhtml" />
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/ClientuiApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/controller/ClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/java/com/clientUI/clientui/beans/JeuBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="111" column="34" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/resources/templates/Accueil.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#p:button#0;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p:button#1;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p:button#2;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p:button#3;n#div#0;n#h:body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui">
+<h:head>
+    <title>Welcome to our Website</title>
+
+    <link rel="stylesheet" type="text/css" href="webjars/bootstrap/4.0.0-2/css/bootstrap.min.css" />
+
+</h:head>
+<h:body>
+
+
+<div class="container">
+
+    <h1>Website for games</h1>
+
+    <h:outputText value="Enter Text: "/>
+    <p:inputText
+            />
+
+    <p:button outcome="productDetail" value="Bookmark" icon="pi pi-star" style="margin-right:20px;">
+        <f:param name="productId" value="10" />
+    </p:button>
+
+    <p:button outcome="productDetail" value="With Icon" icon="pi pi-star" style="margin-right:20px;">
+        <f:param name="productId" value="20" />
+    </p:button>
+
+    <p:button outcome="productDetail" icon="pi pi-star" style="margin-right:20px;" title="Icon Only">
+        <f:param name="productId" value="30" />
+    </p:button>
+
+    <p:button outcome="productDetail" value="Bookmark" icon="pi pi-star" disabled="true" style="margin-right:20px;">
+        <f:param name="productId" value="40" />
+    </p:button>
+
+</div>
+
+
+<script type="text/javascript" src="webjars/bootstrap/4.0.0-2/js/bootstrap.min.js"></script>
+
+</h:body>
+</html>
