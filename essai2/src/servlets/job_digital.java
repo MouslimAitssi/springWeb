@@ -8,10 +8,10 @@ import javax.servlet.http.HttpServletResponse;
 
 
 
-public class Job_digital extends HttpServlet {
+public class job_digital extends HttpServlet {
 	private static final long serialVersionUID = 1L;
    
-    public Job_digital() {
+    public job_digital() {
         super();
         // TODO Auto-generated constructor stub
     }
