@@ -4,6 +4,7 @@
      xmlns:ui="http://java.sun.com/jsf/facelets"
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
 >
 <h:head>
 	<title>Game Warrior Template</title>
@@ -23,7 +24,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="css/animate.css"/>  -->
-
+	<h:outputScript library="primefaces" name="jquery/jquery.js" />
 
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -55,6 +56,7 @@
 			<nav class="main-menu">
 				<ul>
 					<li><h:outputLabel value = "#{bonjour.text}"></h:outputLabel></li>
+					<li><p:outputLabel value="#{bonjour.text}"></p:outputLabel></li>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="review.html">Games</a></li>
 					<li><a href="categories.html">Blog</a></li>
@@ -427,12 +429,5 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 	</footer>
 	<!-- Footer section end -->
 
-
-	<!--====== Javascripts & Jquery ======-->
-	<!--  <script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.marquee.min.js"></script>
-	<script src="js/main.js"></script>  -->
     </h:body>
 </html>
