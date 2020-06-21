@@ -4,5 +4,19 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_3.xsd"
     version="2.3">
-
+    
+    <navigation-rule> 
+	    <from-view-id>/index.xhtml</from-view-id> 
+	    <navigation-case> 
+	      <from-outcome>Bonjour</from-outcome> 
+	      <to-view-id>/index.xhtml</to-view-id> 
+	    </navigation-case> 
+  </navigation-rule>
+  
+  
+	<managed-bean> 
+	    <managed-bean-name>Bonjour</managed-bean-name> 
+	    <managed-bean-class>managedBeans.Bonjour</managed-bean-class> 
+	    <managed-bean-scope>session</managed-bean-scope> 
+	</managed-bean> 
 </faces-config>

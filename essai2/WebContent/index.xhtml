@@ -1,6 +1,11 @@
 <!DOCTYPE html>
-<html lang="zxx">
-<head>
+<html lang="zxx"
+	xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+>
+<h:head>
 	<title>Game Warrior Template</title>
 	<meta charset="UTF-8"/>
 	<meta name="description" content="Game Warrior Template"/>
@@ -25,8 +30,8 @@
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
-</head>
-<body>
+</h:head>
+<h:body>
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
@@ -49,6 +54,7 @@
 			<!-- site menu -->
 			<nav class="main-menu">
 				<ul>
+					<li><h:outputLabel value = "#{bonjour.text}"></h:outputLabel></li>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="review.html">Games</a></li>
 					<li><a href="categories.html">Blog</a></li>
@@ -428,5 +434,5 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.marquee.min.js"></script>
 	<script src="js/main.js"></script>  -->
-    </body>
+    </h:body>
 </html>
