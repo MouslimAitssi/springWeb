@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+ 
+    <f:view>
+        <h:head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>Job Board - Login</title>
+   
+        <!-- Font Icon -->
+        <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css"/>
+   
+        <!-- Main css -->
+        <link rel="stylesheet" href="css/login-style.css" type="text/css"/>
+   
+        <style>
+            nav {
+                max-width: 1400px;
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+            a img {
+                height: 100px;
+                width: auto;
+            }
+        </style>
+    </h:head>
+    <h:body>
+        <nav>
+            <div>
+                <a href="index.xhtml">
+                    <img src="img/logo.png" alt="job Board logo"/>
+                </a>
+            </div>        
+        </nav>
+        <div class="main">
+            <section class="sign-in">
+                <div class="container">
+                    <div class="signin-content">
+                        <div class="signin-image">
+                            <img src="img/signin-image.jpg" alt="sing up image"/>
+                            <a href="register.xhtml" class="signup-image-link">Create an account</a>
+                        </div>
+   
+                        <div class="signin-form">
+                            <h2 class="form-title">Sign in</h2>
+                            <h:form class="register-form">
+                                    <div class="ui-fluid">
+                                        <div class="p-field">
+                                        	Your name : <br></br>
+                                            <h:inputText id="firstname1" placeholder="Your Name" value="#{loginController.name}" />
+                                        </div>
+                                        <div class="p-field">
+                                        	<br></br>Your password :<br></br>
+                                            <h:inputSecret id="lastname1" placeholder="Your Password" value="#{loginController.password}"/>
+                                        </div>
+                                        <div class="form-group form-button">
+                                        <h:commandButton action="#{loginController.authenticateUser}" name="signin" id="signin" value="Connect" class="form-submit" />
+                                        <!--  input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/-->
+                                    </div>
+                                    </div>
+                            </h:form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </h:body>
+    </f:view>
+</html>

@@ -9,7 +9,7 @@ public class Db_connection {
 
 	public static Connection createConnection() {
 		Connection con = null;
-		String url = "jdbc:mysql://localhost:3306/jobs?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"; // /database_name
+		String url = "jdbc:mysql://localhost:3306/jobs"; // /database_name
 		String username = "root"; //MySQL username
 		String password = "";
 		

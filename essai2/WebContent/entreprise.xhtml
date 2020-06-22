@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+<f:view>
+    <h:head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>Job - Entreprise</title>
+   
+        <!--  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>-->
+   
+        <link href="../css/style.css" rel="stylesheet" type="text/css" />
+       
+        <link href="css/nav.css" rel="stylesheet" type="text/css" />
+   
+   
+    </h:head>
+    <h:body>
+        <nav>
+            <div>
+                <a href="index">
+                    <img src="img/logo.png" alt="job Board logo"/>
+                </a>
+            </div>        
+        </nav>
+        <div class="container">
+            <h:form id="contact">
+        <h3>Give us your informations</h3>
+        <div class="p-formgroup-inline">
+            <div class="p-field">
+                <p:outputLabel for="name" styleClass="ui-sr-only" value="Company name" />
+                <p:inputText id="name" placeholder="Your company" />
+            </div>
+            <div class="p-field">
+                <p:outputLabel for="email" styleClass="ui-sr-only" value="Company e-mail" />
+                <p:inputText id="email" placeholder="Your company e-mail" />
+            </div>
+            <div class="p-field">
+                <p:outputLabel for="adress" styleClass="ui-sr-only" value="Company adress" />
+                <p:inputText id="adress" placeholder="Your company adress" />
+            </div>
+            <div class="p-field">
+                <p:outputLabel for="website" styleClass="ui-sr-only" value="Website" />
+                <p:inputText id="website" placeholder="Your Web Site (Optional)" />
+            </div>
+            <div class="p-field p-col-12">
+                <p:outputLabel for="project" value="Tell us about your project" />
+                <p:inputTextarea id="project" placeholder="Type your message here..." rows="4" />
+            </div>
+        </div>   
+        <h5>Select the wanted profile(s)</h5>
+        <div class="p-formgroup-inline">
+            <div class="p-field-checkbox">
+                <p:selectBooleanCheckbox id="h_option1" />
+                <p:outputLabel for="h_option1" value=" Data Scientist" />
+            </div>
+            <div class="p-field-checkbox">
+                <p:selectBooleanCheckbox id="h_option2" />
+                <p:outputLabel for="h_option2" value=" Software Developer" />
+            </div>
+            <div class="p-field-checkbox">
+                <p:selectBooleanCheckbox id="h_option3" />
+                <p:outputLabel for="h_option3" value=" Information Technology Manager" />
+            </div>
+            <div class="p-field-checkbox">
+                <p:selectBooleanCheckbox id="h_option4" />
+                <p:outputLabel for="h_option4" value=" Information Security Analyst" />
+            </div>
+            <div class="p-field-checkbox">
+                <p:selectBooleanCheckbox id="h_option5" />
+                <p:outputLabel for="h_option5" value=" Computer Systems Analyst" />
+            </div>
+            <div class="p-field-checkbox">
+                <p:selectBooleanCheckbox id="h_option6" />
+                <p:outputLabel for="h_option6" value=" Web Developer" />
+            </div>
+        </div>
+       
+        <h5 style="margin-top:0">Select the type of project</h5>
+        <h:panelGrid columns="2" style="margin-bottom:10px" cellpadding="5">
+            <p:outputLabel for="jobs" value="Console:" />
+            <p:selectOneRadio id="jobs" value="#{radioView.job}" unselectable="true">
+                <f:selectItem itemLabel="Job" itemValue="Job" />
+                <f:selectItem itemLabel="Internship" itemValue="Internship" />
+            </p:selectOneRadio>
+        </h:panelGrid>
+       
+        <div class="p-formgroup-inline">
+            <div class="p-field">
+                <p:outputLabel for="duration" styleClass="ui-sr-only" value="Project duration" />
+                <p:inputText id="duration" placeholder="Enter the duration of the project (Optional)" />
+            </div>
+        </div> 
+        <div class="p-formgroup-inline">
+            <div class="p-field">
+                <p:outputLabel for="salary" styleClass="ui-sr-only" value="Salary/renumeration (per month)" />
+                <p:inputText id="salary" placeholder="Salary (Optional)" />
+            </div>
+        </div>
+        <p:button style="width:100%;" id="contact-submit" value="Submit" />
+    </h:form>
+        </div>
+    </h:body>
+</f:view>
+</html>

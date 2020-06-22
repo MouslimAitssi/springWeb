@@ -3,13 +3,13 @@
       xmlns:ui="http://java.sun.com/jsf/facelets"
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:h="http://java.sun.com/jsf/html">
-      
-    <body>
-    <f:view>
-    	<h:outputText value = "#{bonjour.text}" />
-    </f:view>
-    </body>
+     
+<f:view>
+    <p>Welcome, #{loginController.name}</p>
+    <h:form>
+        <h:commandButton value="logout" action="#{loginController.logout}" />
+    </h:form>
 
-	<ui:composition template="">
-	</ui:composition>
+
+</f:view>
 </html>
