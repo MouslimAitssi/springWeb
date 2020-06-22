@@ -44,7 +44,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="index">
+                                    <a href="index.xhtml">
                                         <img src="img/logo.png" alt="" id="logo">
                                     </a>
                                 </div>
@@ -54,7 +54,7 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a href="#" id="browse_job1">Browse Job</a></li>
-                                            <li><a href="contact">Contact</a></li>
+                                            <li><a href="contact.jsp">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -62,10 +62,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                     <div class="phone_num d-none d-xl-block">
-                                        Welcome <%=request.getSession(false).getAttribute("username")%>
-                                    </div>
-                                    <div class="d-none d-lg-block">
-                                        <a class="boxed-btn3" href="logout">Log out</a>
+                                        Welcome
                                     </div>
                                 </div>
                             </div>

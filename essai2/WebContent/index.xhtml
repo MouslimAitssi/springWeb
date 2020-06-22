@@ -27,24 +27,24 @@
     <link rel="stylesheet" href="css/themify-icons.css"/>
     <link rel="stylesheet" href="css/flaticon.css"/>
     <link rel="stylesheet" href="css/style.css"/>
-    <c:if test="${empty sessionScope.username}">
+    <c:if test="${empty loginController.name}">
         <script type="text/javascript">
             function getUrl()
             {
                 if (confirm("Please login first !!")) {
-                    return "login";
+                    return "login.xhtml";
             } else {
-                return "index";
+                return "index.xhtml";
             }
                 
             }
 
         </script>
     </c:if>
-    <c:if test="${!empty sessionScope.username}">
+    <c:if test="${!empty loginController.name}">
         <script type="text/javascript">
             function getUrl() {
-                return "index";
+                return "index.xhtml";
             }
 
         </script>
@@ -63,7 +63,7 @@
                         <div class="row align-items-center">
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
-                                    <a href="index">
+                                    <a href="index.xhtml">
                                         <img src="img/logo.png" alt="" id="logo"/>
                                     </a>
                                 </div>
@@ -73,7 +73,7 @@
                                     <nav>
                                         <ul id="navigation">
                                             <li><a href="#" id="browse_job">Targeted fields</a></li>
-                                            <li><a href="contact">Contact</a></li>
+                                            <li><a href="contact.jsp">Contact</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -84,10 +84,10 @@
                                     <c:if test="${empty loginController.name}">
 
                                         <div class="phone_num d-none d-xl-block">
-                                            <a href="login">Log in</a>
+                                            <a href="login.xhtml">Log in</a>
                                         </div>
                                         <div class="d-none d-lg-block">
-                                            <a class="boxed-btn3" href="register">Register</a>
+                                            <a class="boxed-btn3" href="register.xhtml">Register</a>
                                         </div>
 
                                     </c:if>
@@ -99,7 +99,7 @@
                                             <div class="main-menu  d-none d-lg-block">
                                                 <nav>
                                                     <ul id="navigation">
-                                                        <li><a href="jobs" id="browse_job1">Browse Jobs</a></li>
+                                                        <li><a href="jobs.jsp" id="browse_job1">Browse Jobs</a></li>
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -201,7 +201,7 @@
                                     <img src="img/svg_icon/2.svg" alt=""/>
                                 </div>
                                 <div class="jobs_conetent">
-                                    <h4><a href="jobdigital">Software Developer</a></h4>
+                                    <h4><a href="#">Software Developer</a></h4>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
                                             <p> <i class="fa fa-map-marker"></i> Software development is the process of creating and maintaining applications.</p>
@@ -227,7 +227,7 @@
                                     <img src="img/svg_icon/3.svg" alt=""/>
                                 </div>
                                 <div class="jobs_conetent">
-                                   <h4><a href="jobwordpress">Information Security Analyst</a></h4>
+                                   <h4><a href="#">Information Security Analyst</a></h4>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
                                             <p> <i class="fa fa-map-marker"></i>Information security is the practice of protecting data by mitigating information risks.</p>
@@ -279,7 +279,7 @@
                                     <img src="img/svg_icon/1.svg" alt=""/>
                                 </div>
                                 <div class="jobs_conetent">
-                                    <h4><a href="jobsoftware">Web Developer</a></h4>
+                                    <h4><a href="#">Web Developer</a></h4>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
                                             <p> <i class="fa fa-map-marker"></i>A web developer specializes in the development of World Wide Web applications.</p>
@@ -305,7 +305,7 @@
                                     <img src="img/svg_icon/5.svg" alt=""/>
                                 </div>
                                 <div class="jobs_conetent">
-                                    <h4><a href="jobdesign">Information Technology Manager</a></h4>
+                                    <h4><a href="#">Information Technology Manager</a></h4>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
                                             <p> <i class="fa fa-map-marker"></i>The central aim of IT management is to generate value through the use of technology.</p>

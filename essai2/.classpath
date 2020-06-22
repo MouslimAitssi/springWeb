@@ -6,6 +6,8 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="lib" path="C:/Program Files/apache-tomcat-9.0.27/bin"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/omnifaces-3.6.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/arquillian-junit-container-1.1.13.Final.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/arquillian-junit-1.0.0.Alpha5.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
@@ -17,5 +19,6 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

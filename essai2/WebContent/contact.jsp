@@ -18,7 +18,6 @@
 
 <body>
     <!-- header-start -->
-    <%@ include file="header.jsp" %>
     <!-- header-end -->
     
     <!-- bradcam_area  -->
